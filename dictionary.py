@@ -32,16 +32,16 @@ student3 = {
 print(student1["grades"][0])
 
 for k in student1:
-    print(k, "=>", student1[k])
+ print(k, "=>", student1[k])
 
 
-#Liste de dict
+# #Liste de dict
 
-students = [student1, student2, student3]
-evaluation = "bon"
-for s in students:
-    if not s["isGoodLearner"]:
-        evaluation = "mauvais"
-    else:
-        evaluation = "bon"
-    print("%s est un %s étudiant" %(s["fname"], evaluation))
+# students = [student1, student2, student3]
+# evaluation = "bon"
+# for s in students:
+#     if not s["isGoodLearner"]:
+#         evaluation = "mauvais"
+#     else:
+#         evaluation = "bon"
+#     print("%s est un %s étudiant" %(s["fname"], evaluation))
