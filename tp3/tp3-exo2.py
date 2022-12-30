@@ -14,7 +14,7 @@ with open('deniro.csv', 'r') as f:
        # je suprime la première ligne contenant les noms des colonnes:
        myReaderWithoutFirstLine = myReader[1:]
       
-       for line in myReaderWithoutFirstLine:
+       #for line in myReaderWithoutFirstLine:
        
 
         
