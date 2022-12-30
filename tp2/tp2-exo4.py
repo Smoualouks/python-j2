@@ -1,11 +1,11 @@
-dict = {'a': 100, 'b': 200, 'c': 300}
+from sys import argv
 
-valeure = input( "saisissez la valeur à chercher: ")
+sample_dict = {'a': 100, 'b': 200, 'c': 300};
 
-for x in dict:
-    if dict[x] == valeure:
-       print(valeure, "exist in dict")
-    exit(1) 
+quoi=int(argv[1]);
 
-    
+for k in sample_dict:
+    if sample_dict[k] == quoi:
+        print (quoi, " est présente dans la case: ", k);
+
 
