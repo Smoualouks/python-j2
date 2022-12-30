@@ -4,7 +4,7 @@ import csv
 
 bestScore = -1
 nombeFilms = 0
-index = 0
+
 with open('deniro.csv', 'r') as f:
 
        # Créer un objet csv à partir du fichier
@@ -15,7 +15,7 @@ with open('deniro.csv', 'r') as f:
        myReaderWithoutFirstLine = myReader[1:]
       
        for line in myReaderWithoutFirstLine:
-        line.replace
+       
 
         
         #  for i in line:
